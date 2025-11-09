@@ -1,16 +1,26 @@
-## Hi there 👋
+# Привет!
 
-<!--
-**wqus/wqus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Меня зовут Бен, я начинающий backend-разработчик, который также увлекается ML.  
+Сейчас активно изучаю основы backend-разработки и готовлюсь создавать свои первые проекты.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Сейчас изучаю/ использую
+- Python 3.11+
+- Git и GitHub
+- Основы веб-разработки: HTTP, REST API
+- Работа с базами данных (PostgreSQL, SQLite)
+- Docker и виртуальных окружений
+
+---
+
+## 💻 Планирую создавать
+- REST API на Python (FastAPI/Django)
+- Приложения с базами данных
+- Мини-проекты для практики и портфолио
+
+---
+
+## 📫 Контакты
+- Email: abrben132@gmail.com
+- Telegram: [@wquex](https://t.me/wquex)
