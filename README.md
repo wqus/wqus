@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://t.me/rdckk">
-    <img src="https://img.shields.io/badge/Telegram-@твой_ник-blue?style=flat&logo=telegram" alt="Telegram">
+    <img src="https://img.shields.io/badge/Telegram-@jisdooo-blue?style=flat&logo=telegram" alt="Telegram">
   </a>
   <a href="https://hh.ru/resume/5ad186cbff0d4d796b0039ed1f62444c326746">
     <img src="https://img.shields.io/badge/HH.ru-Резюме-red?style=flat" alt="HH">
@@ -41,7 +41,7 @@
   • Настроено структурированное логирование (logging, RotatingFileHandler)  
   • Контейнеризация: Docker + multi-stage builds (маленький, безопасный образ)  
 
-  [→ Репозиторий](ссылка-на-репо) • [→ Демо бота](https://t.me/math_helper_bot)
+  [→ Репозиторий](ссылка-на-репо) • [→ Демо бота](https://t.me/math4students_bot)
 
 - **Inference Service** — высокопроизводительный API для ML-моделей  
   FastAPI + multi-stage Docker + Loguru + Locust → latency <150 мс при 500+ RPS  
