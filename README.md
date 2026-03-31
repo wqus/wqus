@@ -19,24 +19,21 @@
 - Люблю чистый, тестируемый и масштабируемый код: **Clean Architecture**, **FastAPI**, **asyncio**, **Pydantic v2**
 - Делаю упор на производительность и observability с самого начала проекта
 
-### Ключевые pet-проекты и достижения (pinned ниже)
+Ключевые pet-проекты и достижения
 
-- **Math Helper** — асинхронный Telegram-сервис для автоматизированного решения математических задач  
-  Полноценный продукт: Telegram-бот + backend API + инфраструктура (разработка не окончена)  
-  **Стек и архитектура**  
-  • FastAPI (асинхронный REST API)  
-  • aiogram 3.x (Telegram-бот)  
-  • Clean Architecture (слои: routers → services → repositories)  
-  • PostgreSQL + SQLAlchemy 2 (async)  
-  • Redis (кэширование сессий и часто запрашиваемых решений)  
-  • Pydantic v2, asyncio  
-
-  **Ключевые достижения**  
-  • Внедрение кэша → снижение нагрузки на PostgreSQL на **60%**   
-  • ×2 ускорение добавления новых функций благодаря изоляции бизнес-логики  
-  • Реализована **ролевая модель доступа (RBAC)**: разные права для обычных пользователей, премиум, админов, владельца  
-  • Настроено структурированное логирование (logging, RotatingFileHandler)  
-  • Контейнеризация: Docker + multi-stage builds  
+Math Helper — асинхронный сервис для автоматизированного решения математических задач
+Полноценный backend-сервис с Telegram-интерфейсом и REST API (разработка завершается)Стек и архитектура
+• FastAPI (асинхронный REST API + веб-часть)
+• aiogram 3.x (Telegram-бот)
+• Clean Architecture (routers → services → repositories → presenters)
+• PostgreSQL + SQLAlchemy 2 (async)
+• Redis (кэширование состояний и решений)
+• Pydantic v2, asyncio, DockerКлючевые достижения
+• Внедрение Redis-кэша → снижение нагрузки на PostgreSQL на 60%
+• Реализована многослойная архитектура, значительно упростившая добавление новых функций
+• Ролевая модель доступа (RBAC): user, premium, admin, owner
+• Структурированное логирование и обработка ошибок
+• Контейнеризация через Docker (multi-stage builds) + CI/CD
 
   [→ Репозиторий](https://github.com/wqus/math_service) • [→ Демо бота](https://t.me/math4students_bot)
 
