@@ -19,24 +19,25 @@
 - Люблю чистый, тестируемый и масштабируемый код: **Clean Architecture**, **FastAPI**, **asyncio**, **Pydantic v2**
 - Делаю упор на производительность и observability с самого начала проекта
 
-### Ключевые pet-проекты и достижения
+**Math Helper** — асинхронный сервис для автоматизированного решения математических задач.  
+Полноценный backend-сервис с Telegram-интерфейсом и REST API (разработка завершается).
 
-Math Helper — асинхронный сервис для автоматизированного решения математических задач
-Полноценный backend-сервис с Telegram-интерфейсом и REST API (разработка завершается)
-Стек и архитектура
-• FastAPI (асинхронный REST API + веб-часть)
-• aiogram 3.x (Telegram-бот)
-• Clean Architecture (routers → services → repositories → presenters)
-• PostgreSQL + SQLAlchemy 2 (async)
-• Redis (кэширование состояний и решений)
-• Pydantic v2, asyncio, DockerКлючевые достижения
-• Внедрение Redis-кэша → снижение нагрузки на PostgreSQL на 60%
-• Реализована многослойная архитектура, значительно упростившая добавление новых функций
-• Ролевая модель доступа (RBAC): user, premium, admin, owner
-• Структурированное логирование и обработка ошибок
-• Контейнеризация через Docker (multi-stage builds) + CI/CD
+**Стек и архитектура:**
+- FastAPI (асинхронный REST API + веб-часть)
+- aiogram 3.x (Telegram-бот)
+- Clean Architecture (routers → services → repositories → presenters)
+- PostgreSQL + SQLAlchemy 2 (async)
+- Redis (кэширование состояний и решений)
+- Pydantic v2, asyncio, Docker
 
-  [→ Репозиторий](https://github.com/wqus/math_service) • [→ Демо бота](https://t.me/math4students_bot)
+**Ключевые достижения:**
+- Внедрение Redis-кэша → снижение нагрузки на PostgreSQL на **60%**
+- Реализована многослойная архитектура, значительно упростившая добавление новых функций
+- Ролевая модель доступа (RBAC): user, premium, admin, owner
+- Структурированное логирование и обработка ошибок
+- Контейнеризация через Docker (multi-stage builds) + CI/CD
+
+  [→ Репозиторий](https://github.com/wqus/math_service)
 
 
 
