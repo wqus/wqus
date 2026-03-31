@@ -16,7 +16,7 @@
 
 - ~6 месяцев коммерческой разработки (+стажировка в Смарт-Софт, продукт компании - Traffic Inspector Next Generation)
 - Победитель XI Всероссийской олимпиады по IT/Data Science (1 место из 3000+)
-- Люблю чистый, testable и масштабируемый код: **Clean Architecture**, **FastAPI**, **asyncio**, **Pydantic v2**
+- Люблю чистый, тестируемый и масштабируемый код: **Clean Architecture**, **FastAPI**, **asyncio**, **Pydantic v2**
 - Делаю упор на производительность и observability с самого начала проекта
 
 ### Ключевые pet-проекты и достижения (pinned ниже)
