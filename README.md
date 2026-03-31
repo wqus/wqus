@@ -22,7 +22,8 @@
 ### Ключевые pet-проекты и достижения
 
 Math Helper — асинхронный сервис для автоматизированного решения математических задач
-Полноценный backend-сервис с Telegram-интерфейсом и REST API (разработка завершается)Стек и архитектура
+Полноценный backend-сервис с Telegram-интерфейсом и REST API (разработка завершается)
+Стек и архитектура
 • FastAPI (асинхронный REST API + веб-часть)
 • aiogram 3.x (Telegram-бот)
 • Clean Architecture (routers → services → repositories → presenters)
