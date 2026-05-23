@@ -9,6 +9,9 @@
   <a href="https://t.me/rdckk">
     <img src="https://img.shields.io/badge/Telegram-@rdckk-blue?style=flat&logo=telegram" alt="Telegram">
   </a>
+  <a href="mailto:3580920@mail.ru">
+    <img src="https://img.shields.io/badge/Email-3580920@mail.ru-red?style=flat&logo=gmail" alt="Email">
+  </a>
 </p>
 
 </div>
