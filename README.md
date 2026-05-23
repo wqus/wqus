@@ -1,8 +1,9 @@
 <div align="center">
 
-<h1>Бен Абрамян</h1>
-<h3>Backend Python Developer (FastAPI / asyncio)</h3>
-<p>Москва • Готов к релокации / full remote</p>
+# Бен Абрамян
+### Backend Python Developer (FastAPI / AsyncIO)
+
+Москва • Full Remote / Relocation
 
 <p>
   <a href="https://t.me/rdckk">
@@ -12,44 +13,102 @@
 
 </div>
 
-### Обо мне
+---
 
-- 8 месяцев опыта разработки (включая 1 месяц стажировки в компании Smart Soft, продукт — Traffic Inspector Next Generation)
-- Победитель XI Всероссийской олимпиады по IT/Data Science (1 место из 3000+)
-- Люблю чистый, тестируемый и масштабируемый код: **Clean Architecture**, **FastAPI**, **asyncio**, **Pydantic v2**
-- Делаю упор на производительность и observability с самого начала проекта
+## Обо мне
 
-### Ключевой проект:
-Math Helper - асинхронный backend-сервис для решения математических задач с использованием локальных LLM
+Backend-разработчик на Python, специализируюсь на создании асинхронных backend-сервисов и REST API.
 
-**Стек и архитектура:**
-- aiogram 3.x (Telegram-бот)
-- Clean Architecture (routers → services → repositories → presenters)
-- PostgreSQL + SQLAlchemy 2 + alembic (async)
-- Redis (кэширование состояний и решений)
-- asyncio, Docker
-- Git, CI/CD
-- Ollama
-- logging, JSON, RotatingFileHandler
+Основной стек — **FastAPI**, **AsyncIO**, **SQLAlchemy 2.0**, **PostgreSQL**, **Redis**, **Docker**.  
+Люблю production-ready подход: проектирование архитектуры, observability, CI/CD, тестирование и оптимизация производительности.
 
-**Ключевые достижения:**
-- Спроектировал stateless-сервис с вынесением состояния в Redis для горизонтального масштабирования
-- Реализована многослойная архитектура, значительно упростившая добавление новых функций
-- Ролевая модель доступа (RBAC): user, premium, admin, owner
-- Структурированное логирование и обработка ошибок
-- Настроил CI/CD (GitHub Actions): сборка и деплой сервиса (Docker, zero-downtime)
-- Интегрировал локальные LLM (через Ollama) с отказоустойчивой обработкой 
+- Разрабатываю асинхронные сервисы и Telegram-ботов
+- Использую Clean Architecture и многослойный подход
+- Пишу тестируемый и масштабируемый код
+- Интересуюсь highload/backend engineering и инфраструктурой
+- Победитель Всероссийской олимпиады «Актионада» (IT / Data Science, 2025)
 
-  [→ Репозиторий](https://github.com/wqus/math_service)
+---
 
+# Ключевые проекты
 
+## Math Helper
+Асинхронный Telegram-бот для решения математических задач с использованием локальных LLM.
 
-### Технологии, с которыми работаю комфортно
+### Что реализовано
+
+- Полностью асинхронный backend на Python + aiogram 3.x
+- Архитектура по принципам Clean Architecture
+- PostgreSQL + SQLAlchemy 2.0 + Alembic
+- Redis для кэширования и хранения состояний
+- RBAC (user / premium / admin / owner)
+- Rate limiting и ticket system
+- Монетизация через Telegram Stars
+- Docker + Docker Compose
+- CI/CD через GitHub Actions
+- Unit + integration тесты
+- Интеграция локальных LLM через Ollama
+
+### Инженерные решения
+
+- Stateless-архитектура с вынесением состояния в Redis
+- Подготовка сервиса к горизонтальному масштабированию
+- Структурированное логирование и централизованная обработка ошибок
+- Production-ready организация проекта и инфраструктуры
+
+[→ Репозиторий проекта](https://github.com/wqus/math_service)
+
+---
+
+## Finly REST API
+
+REST API для управления личными финансами.
+
+### Основные возможности
+
+- JWT authentication (access/refresh tokens)
+- CRUD для финансовых операций
+- Многослойная архитектура API → Services → Repositories
+- PostgreSQL + SQLAlchemy 2.0 + Alembic
+- Docker + CI/CD pipeline
+- Асинхронный FastAPI backend
+
+---
+
+## Device Statistics Analytics API
+
+Backend-сервис для сбора и аналитики статистики устройств.
+
+Проект разработан в рамках технического отбора на стажировку «ДИП:КОД» от Газпром нефти.
+
+### Что реализовано
+
+- REST API на FastAPI
+- Аналитика: min/max/count/sum/median
+- Фильтрация по временным периодам
+- Нагрузочное тестирование через Locust
+- Оптимизация PostgreSQL-запросов индексами
+- Docker + Alembic migrations
+
+---
+
+# Технологии
 
 ```text
-Языки и фреймворки: Python 3.11+ (Asyncio), FastAPI, Pydantic v2, aiogram 3.x, Ollama.
-Базы данных и Infra: PostgreSQL (SQLAlchemy, Alembic), Redis, Docker, Docker Compose.
-Инженерия: REST API, Clean Architecture (DDD), Git (PR, Code Review), Unit-тесты (Pytest), Mypy, CI/CD (GitHub Actions).
-Сетевые технологии: Модель OSI, TCP/IP, HTTP/S, настройка правил фильтрации трафика и проброса портов.
-QA & Мониторинг: системное логирование (Loguru, logging, JSON, RotatingFileHandler).
-ML / Data Science: pandas, numpy, sklearn (олимпиадный опыт)
+Backend:
+Python 3.12, FastAPI, AsyncIO, aiogram 3.x
+
+Databases & Infra:
+PostgreSQL, SQLAlchemy 2.0, Redis,
+Docker, Docker Compose, Alembic
+
+Engineering:
+REST API, Clean Architecture,
+CI/CD (GitHub Actions),
+Pytest, Git/GitHub
+
+Performance & Ops:
+Locust, Logging, Linux
+
+Additional:
+Ollama, LLM integration
