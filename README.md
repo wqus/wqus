@@ -23,7 +23,7 @@
 Backend-разработчик на Python, специализируюсь на создании асинхронных backend-сервисов и REST API.
 
 Основной стек — **FastAPI**, **AsyncIO**, **SQLAlchemy 2.0**, **PostgreSQL**, **Redis**, **Docker**.  
-Люблю production-ready подход: проектирование архитектуры, observability, CI/CD, тестирование и оптимизация производительности.
+Люблю production-ready подход: проектирование архитектуры, CI/CD, тестирование и оптимизация производительности.
 
 - Разрабатываю асинхронные сервисы и Telegram-ботов
 - Использую Clean Architecture и многослойный подход
@@ -76,6 +76,8 @@ REST API для управления личными финансами.
 - Docker + CI/CD pipeline
 - Асинхронный FastAPI backend
 
+[→ Репозиторий проекта](https://github.com/wqus/finly-api)
+
 ---
 
 ## Device Statistics Analytics API
@@ -92,6 +94,8 @@ Backend-сервис для сбора и аналитики статистик�
 - Нагрузочное тестирование через Locust
 - Оптимизация PostgreSQL-запросов индексами
 - Docker + Alembic migrations
+
+[→ Репозиторий проекта](https://github.com/wqus/dip_code_test_api)
 
 ---
 
