@@ -1,9 +1,9 @@
 <div align="center">
-  
-# Бен Абрамян
+
+# Ben Abramyan
 ### Python Backend Developer
 
-Разрабатываю высоконагруженные асинхронные сервисы и event-driven системы на Python.
+Проектирую и разрабатываю backend-сервисы на Python: асинхронные API, обработку событий, интеграции и системы, которым важны производительность и надёжность.
 
 <p>
   <a href="https://t.me/rdckk">
@@ -13,93 +13,130 @@
     <img src="https://img.shields.io/badge/Email-3580920@mail.ru-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
+
 </div>
 
 ---
 
 ## Обо мне
 
-Backend-разработчик с акцентом на **высоконагруженные системы**, асинхронную архитектуру и production-ready решения. 
+Python Backend Developer с коммерческим и production-опытом.
 
-Специализируюсь на построении масштабируемых сервисов: от проектирования event-driven архитектуры до деплоя и нагрузочного тестирования.
+Основной фокус:
 
-**Сейчас активно работаю с:**
-- High-load event processing
-- Redis Streams & queues
-- AsyncIO + FastAPI
-- Multi-tenant архитектурами
-- Telegram-интеграциями
+- асинхронные backend-сервисы;
+- API и интеграции;
+- PostgreSQL и Redis;
+- обработка событий и фоновые задачи;
+- проектирование надёжной бизнес-логики;
+- тестирование, контейнеризация и запуск в production.
 
----
+Мне интересно работать с задачами, где недостаточно просто написать endpoint: нужно продумать данные, состояния, конкурентный доступ, производительность и поведение системы при ошибках.
 
-## Технологический стек
+## Ключевые проекты
 
-### Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![AsyncIO](https://img.shields.io/badge/AsyncIO-222222?style=flat-square)
+### [EventPulse](https://github.com/wqus/EventPulse)
 
-### High-Load & Architecture
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square)
+Высоконагруженная система приёма и обработки событий.
 
-### Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Locust](https://img.shields.io/badge/Locust-00C853?style=flat-square)
+**Что реализовано:**
 
----
+- около **900 запросов/с** в среднем, до **992 запросов/с**;
+- **96 493 запроса без ошибок** в нагрузочном тесте;
+- обработка событий через Redis Streams;
+- группы потребителей и ручное подтверждение обработки;
+- очередь ошибочных сообщений;
+- ограничение частоты запросов;
+- кэширование;
+- пакетная запись в PostgreSQL / TimescaleDB;
+- многоклиентская архитектура;
+- нагрузочное тестирование через Locust.
 
-## Избранные проекты
-
-### **[EventPulse](https://github.com/wqus/EventPulse)** — *High-Performance Event Ingestion Platform*
-Высоконагруженная event-driven система обработки событий в реальном времени.
-
-**Ключевые достижения:**
-- 900+ RPS при нулевом количестве ошибок
-- Decoupled ingestion через **Redis Streams**
-- Multi-tenant архитектура с полной изоляцией
-- Lua rate limiting + 3-level caching
-- Batch запись в PostgreSQL
-- Автоматический Telegram alerting per tenant
-- Полноценное E2E + нагрузочное тестирование (Locust)
-
-**Стек:** FastAPI, Redis Streams, PostgreSQL, SQLAlchemy 2.0 Async, aiogram, Docker, Locust
-
----
+Проект прошёл архитектурное и кодовое ревью senior-разработчиков.
 
 ### [Math Helper](https://github.com/wqus/math_service)
-Telegram-бот для решения математических задач с использованием локальных LLM (Ollama).
 
-**Стек:** aiogram 3.x, PostgreSQL, Redis, Clean Architecture, Docker, GitHub Actions
+Production Telegram-сервис с асинхронным backend, PostgreSQL, Redis и собственной системой монетизации.
+
+**Что реализовано:**
+
+- асинхронная архитектура;
+- PostgreSQL + SQLAlchemy Async;
+- Redis для кэширования и ограничения запросов;
+- ролевая модель доступа;
+- история пользовательских запросов;
+- пагинация;
+- CI/CD;
+- Docker;
+- тестовое покрытие более 70%;
+- локальный запуск LLM через Ollama;
+- монетизация через Telegram Stars.
+
+Репозиторий содержит полноценную структуру приложения, тесты, миграции и CI/CD.
+
+### [7/1 «Совещание»](https://github.com/wqus/7-1)
+
+Прототип backend-модуля с древовидным опросником.
+
+**В проекте реализованы:**
+
+- FastAPI;
+- PostgreSQL;
+- SQLAlchemy Async;
+- Alembic;
+- Redis;
+- Docker;
+- тестирование;
+- кэширование;
+- ограничение частоты запросов;
+- идемпотентность;
+- защита от конкурентного изменения сессии;
+- OpenAPI / Swagger.
+
+Проект показывает подход к проектированию бизнес-логики, работе с состояниями и целостностью данных.
+
+## Технологии
+
+**Backend**
+
+Python · FastAPI · asyncio · Pydantic · REST API
+
+**Data**
+
+PostgreSQL · SQLAlchemy · asyncpg · Redis · TimescaleDB
+
+**Architecture**
+
+Event-driven systems · асинхронная обработка · многоклиентские системы · stateful workflows · Clean Architecture
+
+**Testing & Infrastructure**
+
+pytest · Locust · Docker · Docker Compose · GitHub Actions · Linux · Nginx
+
+## Что умею
+
+Проектировать backend с нуля: от модели данных и API до тестирования и развёртывания.
+
+Работать с асинхронной обработкой, очередями, внешними API и webhook-интеграциями.
+
+Находить и устранять проблемы в production: от ошибок бизнес-логики до повторной доставки событий и некорректного поведения внешних систем.
+
+Проводить нагрузочное тестирование и смотреть не только на средний RPS, но и на задержки, ошибки и поведение системы под нагрузкой.
+
+## Достижения
+
+- Победитель XI Всероссийской олимпиады «Актион Студенты» 2025 по IT / Data Science — 1 место среди 3000+ участников.
+- Production-разработка backend-систем с реальными пользователями.
+- Опыт архитектурного и кодового ревью senior-разработчиков в Virtuum Lab.
+
+## Сейчас развиваюсь
+
+Углубляюсь в проектирование распределённых и высоконагруженных backend-систем, надёжную обработку событий, наблюдаемость и стратегии масштабирования.
 
 ---
 
-### [Finly API](https://github.com/wqus/finly-api)
-REST API для управления личными финансами с JWT-авторизацией.
+### Контакты
 
-**Стек:** FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Docker
+Telegram: [@rdckk](https://t.me/rdckk)
 
----
-
-### [Device Statistics Analytics API](https://github.com/wqus/dip_code_test_api)
-Аналитический сервис, разработанный для отбора на стажировку Газпром нефти.
-
-**Нагрузка:** 500 concurrent users, ~226 RPS, 0% ошибок.
-
----
-
-## 🏆 Достижения
-- Победитель Всероссийской олимпиады «Актионада 2025» (IT / Data Science)
-- Запуск коммерческого AI-сервиса в продакшен
-- Успешное прохождение производственных практик
-
----
-
-## Сейчас изучаю / развиваю
-- Проектирование распределённых высоконагруженных систем
-- Event-Driven Architecture
-- Observability (Prometheus + Grafana)
-- Паттерны масштабирования backend-приложений
+Email: 3580920@mail.ru
